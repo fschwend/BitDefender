@@ -1,0 +1,1721 @@
+{
+    "threat_id": "BD1648223k",
+    "version": 1,
+    "timestamp": "2024-05-13T05:59:20Z",
+    "discovered": "2024-05-13T05:58:11Z",
+    "score": 38,
+    "confidence": 97,
+    "threat_families": [
+        {
+            "name": "phisher",
+            "threat_family_id": "BDFxb1znjqm",
+            "confidence": 39
+        }
+    ],
+    "tags": [
+        "phishing"
+    ],
+    "victims": {
+        "countries": [
+            {
+                "country": "FR",
+                "percentage": 100
+            }
+        ]
+    },
+    "indicators": [
+        {
+            "type": "file",
+            "sha256": "6d13a379b87b3894fd66dc94e9341eb3f7c039a704236ed8e98008e9288d2ff6",
+            "md5": "fa4901b6f353dcab880fc27a37806fb5",
+            "sha1": "0c08a52b9e451c3295a4db36f7c69a6062221b23",
+            "detection_name": "generic..",
+            "file_format": "Document / JSON",
+            "file_size": 484,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache",
+                    "file_name": "06b313ec-2d25-4acc-be12-9f89412eee3c.tmp"
+                }
+            ],
+            "first_seen": "2015-06-02T06:13:32Z",
+            "last_seen": "2024-04-30T18:23:04Z"
+        },
+        {
+            "type": "file",
+            "sha256": "4f33a2e50c6ada38213b2ab7428deeb05f418f3173c91151db23cb60d483409d",
+            "md5": "1d8bd9afe6a922dbce0dd9846b8faade",
+            "sha1": "631ab885eec1c18e5537fd7a706242573c2fc971",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 10240,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\roaming\\adobe\\acrobat\\dc\\security",
+                    "file_name": "es_session_store"
+                }
+            ],
+            "first_seen": "2023-12-04T12:50:45Z",
+            "last_seen": "2024-04-30T18:23:04Z"
+        },
+        {
+            "type": "file",
+            "sha256": "c0cdd9b462de0898b7cbdf01f2d9b2209607d7adcb809347e7a9d9b3894ee7b2",
+            "md5": "726ec0f5be59ff756111308a84eb07f7",
+            "sha1": "3b846aeaf38233ce799daedb1e287f96741a9651",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 227918,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\adobe\\acrobat\\dc",
+                    "file_name": "iconcacheacro65536.dat"
+                }
+            ],
+            "first_seen": "2023-12-04T13:33:13Z",
+            "last_seen": "2024-04-30T18:00:20Z"
+        },
+        {
+            "type": "file",
+            "sha256": "51c353619998c0701b47dc436df999122938c4593912b871a7a8d46c0bc3e6eb",
+            "md5": "e522b37793a466b7b9a8b7dbc135104f",
+            "sha1": "c637e592edc3c94e53245c1139ce8856e33ed889",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 131072,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache",
+                    "file_name": "visited links"
+                }
+            ],
+            "first_seen": "2023-12-05T10:02:18Z",
+            "last_seen": "2024-04-25T08:07:26Z"
+        },
+        {
+            "type": "file",
+            "sha256": "ba15725f1051b34aca848d3b2b10404435d54ef3824462199bbfcb81fa2a2607",
+            "md5": "d10c3f108a3856728839c1db236412ad",
+            "sha1": "680c4b98a7c879879df5977c9ff6c31dd2785522",
+            "detection_name": "generic..",
+            "file_format": "Document / JSON",
+            "file_size": 1458,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\adobe\\acrobat\\dc\\sophia\\acrobat",
+                    "file_name": "sophia.json"
+                }
+            ],
+            "first_seen": "2023-12-05T11:46:59Z",
+            "last_seen": "2024-04-30T18:23:04Z"
+        },
+        {
+            "type": "file",
+            "sha256": "75fa659207127eb977a53b4f5834d474e9a671dafed9db1955ce2fcedcd96f5c",
+            "md5": "91924d02bb74a848d7d8c84dd1dd32a2",
+            "sha1": "4773ccfba3e685c21f972726610be0dbd14e9e5a",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 24152,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\roaming\\adobe\\acrobat\\dc\\security",
+                    "file_name": "es_session_storei"
+                }
+            ],
+            "first_seen": "2023-12-05T11:46:59Z",
+            "last_seen": "2024-04-30T18:23:04Z"
+        },
+        {
+            "type": "process",
+            "name": "acrocef.exe",
+            "path": "c:\\program files\\adobe\\acrobat dc\\acrobat\\acrocef_1\\acrocef.exe",
+            "command_line": "\"c:\\program files\\adobe\\acrobat dc\\acrobat\\acrocef_1\\acrocef.exe\" ~MORE ARGUMENTS~"
+        },
+        {
+            "type": "process",
+            "name": "acrobat.exe",
+            "path": "c:\\program files\\adobe\\acrobat dc\\acrobat\\acrobat.exe",
+            "command_line": "\"c:\\program files\\adobe\\acrobat dc\\acrobat\\acrobat.exe\" ~MORE ARGUMENTS~"
+        },
+        {
+            "type": "file",
+            "sha256": "e06c221fb5b43f5a25220d326eb501573c2e0cc9fbb31007bf79054b6f613907",
+            "md5": "997ce5ed3633e8ff84c2f7d1f0e48e53",
+            "sha1": "d22617bdf6d8dce13e5fcbe9bdd57a812ee1e237",
+            "detection_name": "generic..",
+            "file_format": "Archive / ZIP",
+            "file_size": 127214,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\temp\\acrobat_sbx",
+                    "file_name": "a9gg1hty_84cte2_3j8.tmp"
+                }
+            ],
+            "first_seen": "2024-04-05T19:59:30Z",
+            "last_seen": "2024-05-08T07:56:12Z"
+        },
+        {
+            "type": "file",
+            "sha256": "076e816754747ba43a8c3f1267570006be2da46e51c957740d20b7ff81fc256b",
+            "md5": "560bce286dfc1ee354dc6b3b286f1075",
+            "sha1": "19b7f58ca21c322ee5847b939e231a30e96c37ec",
+            "detection_name": "generic..",
+            "file_format": "Document / JSON",
+            "file_size": 203,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\network",
+                    "file_name": "3ca868f5-189f-40bc-aef9-489aa7169389.tmp"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:46Z",
+            "last_seen": "2024-04-23T19:59:46Z"
+        },
+        {
+            "type": "file",
+            "sha256": "b607bb9fb7cdb503afeca53362a2f2b9d61755c08ee671b6e51c0db2b20f3233",
+            "md5": "1908abd6da931a67636b06e8945288f2",
+            "sha1": "1610a650cbec8f6ac86a20ad0909cb236f022815",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 270336,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\cache\\cache_data",
+                    "file_name": "data_1"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:54Z",
+            "last_seen": "2024-04-23T19:59:54Z"
+        },
+        {
+            "type": "file",
+            "sha256": "d671c03db5e0d63be2e4803c90043d016a7e2d4b6b9db79929b92db8caede2be",
+            "md5": "5d421ba2860a50e629dc08c41adf4777",
+            "sha1": "fd67d64b47b22a91da17e1cca8bf9ff1714bd2e5",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 209,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "05349744be1ad4ad_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:32Z",
+            "last_seen": "2024-04-23T19:59:32Z"
+        },
+        {
+            "type": "file",
+            "sha256": "722de52a9ba4d96bea079b571a05f634a15169cd566d308654573bce0a678a6c",
+            "md5": "3f24625800903dbea965b225aa23295f",
+            "sha1": "8566e46da2bbc45ae6a7a261778424b808cb8f30",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 4202496,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\cache\\cache_data",
+                    "file_name": "data_3"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:48Z",
+            "last_seen": "2024-04-23T19:59:48Z"
+        },
+        {
+            "type": "file",
+            "sha256": "23cd0216be4a7f1a5bd85b6cc727deeacb5d7692baad47beb9059c62b7db60bf",
+            "md5": "c539e679ceaaf8b00048000e203fb720",
+            "sha1": "c8d30d60785275c5b0741b55942f20e6b0a13602",
+            "detection_name": "generic..",
+            "file_format": "Image / BMP",
+            "file_size": 65110,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrobat\\dc\\connectoricons",
+                    "file_name": "icon-240423195033z-1909.bmp"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:55Z",
+            "last_seen": "2024-04-23T19:59:55Z"
+        },
+        {
+            "type": "file",
+            "sha256": "08bcb97328a2418b296e8d02fd30231fb6b92efa1c99db1742514fb56db74909",
+            "md5": "efead03b884fa8b0315464869e11785e",
+            "sha1": "4adbba9d19edb08f43025d9974484b606f1a6db1",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 215,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "4ca3cb58378aaa3f_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:52Z",
+            "last_seen": "2024-04-23T19:59:52Z"
+        },
+        {
+            "type": "file",
+            "sha256": "1d429b164d7d8d9511e479f4a9fe585bb81c43b80830e1960fbe523f94af0c6e",
+            "md5": "2bc10f35e8f542876fb50110f5114921",
+            "sha1": "6759f7741bc15500758a04507fa5c568804cc63f",
+            "detection_name": "generic..",
+            "file_format": "Document / PDF",
+            "file_size": 358,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\temp\\acrobat_sbx",
+                    "file_name": "a91mcdspe_84cte3_3j8.tmp"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:58Z",
+            "last_seen": "2024-04-23T19:59:58Z"
+        },
+        {
+            "type": "file",
+            "sha256": "9fdf52912b7f67b6d356bf636b8a3af123ce78a3d5006036bd9b8205b7703496",
+            "md5": "329ec599321ddfc376ac5f4f5e02d341",
+            "sha1": "a6148e35aecdbc47dabf9db125b311deb6aceb0a",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 45056,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\cache\\cache_data",
+                    "file_name": "data_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:48Z",
+            "last_seen": "2024-04-23T19:59:48Z"
+        },
+        {
+            "type": "file",
+            "sha256": "f97c3e4c4155ab2865d6f98d79c0d14250cdbd523dccda4596dfbbd84b3f1590",
+            "md5": "a80da6cd69be93119e1bb42d3a6c8315",
+            "sha1": "039fe7b661b1b04d32d741a7ef7637a34f755b9c",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 212,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "f0cf6dfa8a1afa3d_0"
+                }
+            ],
+            "first_seen": "2024-03-31T23:34:34Z",
+            "last_seen": "2024-03-31T23:34:34Z"
+        },
+        {
+            "type": "file",
+            "sha256": "50fc8c9e266f73c1bc59386af901ebe40f48baf1c233cfb43475c5d6e3a751d5",
+            "md5": "8498a2f00c12bde1d073831875fb8422",
+            "sha1": "b7e42f0a68035e3831e1cd5361fd079ebb6d5dea",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 65363,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\adobe\\acrobat\\dc",
+                    "file_name": "usercache64.bin"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:46Z",
+            "last_seen": "2024-04-23T19:59:46Z"
+        },
+        {
+            "type": "file",
+            "sha256": "0ce65dc0e422a921f0e17ae347238cf5a65c1caf133871eb15d14053fa3151d0",
+            "md5": "f0d2b0602ad62000108c21ef2558a02b",
+            "sha1": "c9bb066ab62d64f8d6f16b17fd1ea73d6868891a",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 289,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache",
+                    "file_name": "log"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:52Z",
+            "last_seen": "2024-04-23T19:59:52Z"
+        },
+        {
+            "type": "file",
+            "sha256": "2f23bc6c1ef4e01c53058e8539337800e5274694813743a8aa95c20c1e61216b",
+            "md5": "b6ce9419eb22867118f1699dae4a1587",
+            "sha1": "5125a596341a3e9ca53c27fa6d92c29b2c7f2836",
+            "detection_name": "phishing.phisher.",
+            "file_format": "Document / PDF",
+            "file_size": 80065,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\downloads",
+                    "file_name": "2f23bc6c1ef4e01c53058e8539337800e5274694813743a8aa95c20c1e61216b.pdf"
+                }
+            ],
+            "severity": 38,
+            "conviction_reasons": [
+                "sandbox_detection"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "first_seen": "2021-08-15T11:09:59Z",
+            "last_seen": "2024-04-23T19:58:35Z",
+            "mitre_info": {
+                "phases": {
+                    "Execution": [
+                        {
+                            "id": "T1106",
+                            "url": "https://attack.mitre.org/techniques/T1106/"
+                        }
+                    ],
+                    "Defense Evasion": [
+                        {
+                            "id": "T1070",
+                            "url": "https://attack.mitre.org/techniques/T1070/",
+                            "sub_techniques": [
+                                {
+                                    "id": "T1070.004",
+                                    "url": "https://attack.mitre.org/techniques/T1070/004/"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "T1112",
+                            "url": "https://attack.mitre.org/techniques/T1112/"
+                        }
+                    ]
+                },
+                "version": "8.0",
+                "matrix": "enterprise"
+            },
+            "compromise_entrypoint": true
+        },
+        {
+            "type": "file",
+            "sha256": "9c17dd202e5246783ded4e72985b427bd4b8dc0cd368214ef18e8d3ad55cf1f8",
+            "md5": "47c522b64643213b8999c7f6cee57059",
+            "sha1": "9fa75090cd66af26f2160c194eeda8e88e3b39b7",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 262512,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\cache\\cache_data",
+                    "file_name": "index"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:36Z",
+            "last_seen": "2024-04-23T19:59:36Z"
+        },
+        {
+            "type": "file",
+            "sha256": "36b562b1286117dd0230144525b621fc089147745809e918ac5557b8c4ec496e",
+            "md5": "e83f268413e22ae0629990fbaf9a9ff4",
+            "sha1": "b7e4d8c36243dbc2775356b8938b24c6ad812135",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 321,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\session storage",
+                    "file_name": "log"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:53Z",
+            "last_seen": "2024-04-23T19:59:53Z"
+        },
+        {
+            "type": "file",
+            "sha256": "4263696f3fc9de345c61a3b131916c106e0f37a7eb539992ad793a4e8e0b1ab4",
+            "md5": "59982072f675d9a03964cd32e25fd1df",
+            "sha1": "fadbbff8970c43f54c740669ab9b26e21be78409",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 851,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\session storage",
+                    "file_name": "000003.log"
+                }
+            ],
+            "first_seen": "2024-04-23T20:00:00Z",
+            "last_seen": "2024-04-23T20:00:00Z"
+        },
+        {
+            "type": "file",
+            "sha256": "96e24f433306e0b3d8dd68f626ed995c374345474a36f7283ab288b11944d899",
+            "md5": "9730594057b664384b4a6422d35229b9",
+            "sha1": "19e5d55645bcf9cbb59141011b3d21fc39aab9aa",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 16603,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\temp\\acrobat_sbx\\ngl",
+                    "file_name": "nglclient_acrobatreader123.1.20174.6.log"
+                }
+            ],
+            "first_seen": "2024-04-23T20:00:01Z",
+            "last_seen": "2024-04-23T20:00:01Z"
+        },
+        {
+            "type": "file",
+            "sha256": "ac4f8a1e5cde1e6b8eea5e187b2042eb256640007159e89e75c7820f413f6be7",
+            "md5": "cfc79489b4da5a47ebf116209d3e8b51",
+            "sha1": "e090667a68382cd944a6a7142f0ff09e5f18f309",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 293,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\local storage\\leveldb",
+                    "file_name": "log"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:57Z",
+            "last_seen": "2024-04-23T19:59:57Z"
+        },
+        {
+            "type": "file",
+            "sha256": "e0a06d1d34fbd6a65fd654420170d8549974205ddafeb2ef1705c005d1091bf7",
+            "md5": "cb16d2aa61aa72d26cf6177fef7b4b34",
+            "sha1": "49a15f3e7216c9d3f71b7ccb0f0fb2a098e83141",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 206,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "7120c35b509b0fae_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:36Z",
+            "last_seen": "2024-04-23T19:59:36Z"
+        },
+        {
+            "type": "file",
+            "sha256": "777e1a9f90619aef7667f3033a6885647d75de27273184c4715cdacf041b40fe",
+            "md5": "f363e837a823d37ba77600583ac86e4c",
+            "sha1": "423dd5d524e87e7aa194e47362d336ea16be668c",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 178,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "0786087c3c360803_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:53Z",
+            "last_seen": "2024-04-23T19:59:53Z"
+        },
+        {
+            "type": "file",
+            "sha256": "00f22bf9fa236f11746c0130e03c984a400b48e01e7912c7c5c4d2975e44223d",
+            "md5": "d7d2c4ff57e3aff4ba3758a1e9db0eb2",
+            "sha1": "46ae9fbd9dfb87411a23d71647589233c9508d6f",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 225,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "f941376b2efdd6e6_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:36Z",
+            "last_seen": "2024-04-23T19:59:36Z"
+        },
+        {
+            "type": "file",
+            "sha256": "2a5e655f4bdbc7b251b42677c7b18bfa93c5a64a7934f8bcf34cb8c904b55eba",
+            "md5": "6dd4a7b4825528c10f360621295914d7",
+            "sha1": "91c14a4c2321da67ea1efa252a6feb1965f97335",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 215,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "bba29d2e6197e2f4_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:33Z",
+            "last_seen": "2024-04-23T19:59:33Z"
+        },
+        {
+            "type": "file",
+            "sha256": "c8f2add3d6469e1168857d6640efb05a1b50efe27adad3eb3e58624404f404f8",
+            "md5": "824bc5965a1d2143ef18f3185fa10cff",
+            "sha1": "060e04405ea6ccd53848ca396b93343375bea499",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 183,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "2a426f11fd8ebe18_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:48Z",
+            "last_seen": "2024-04-23T19:59:48Z"
+        },
+        {
+            "type": "file",
+            "sha256": "5ca16856acbc07fd0aa1a04c2b14fb042559525b19a333e664b54b08b4ff65f4",
+            "md5": "1a09b2c0a49a25613dbf00ba1458d475",
+            "sha1": "344d732335df42b4f72a81cff7c5a63b27aaa6a9",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 181,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "4a0e94571d979b3c_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:48Z",
+            "last_seen": "2024-04-23T19:59:48Z"
+        },
+        {
+            "type": "file",
+            "sha256": "bfebeb7413d952986f1205a05eb0dd249a7c1e6224abd6b13d1217f9aed7b9f9",
+            "md5": "608193151553719cd0769dfe77a5d11f",
+            "sha1": "910cb999c1b23dba5e237da38942e4faf67bcb69",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 248,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "56c4cd218555ae2b_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:28Z",
+            "last_seen": "2024-04-23T19:59:28Z"
+        },
+        {
+            "type": "file",
+            "sha256": "2debc8beca6b4113ec419931561426bf5c39a3152a51b5e108b172567d136407",
+            "md5": "b0c50f3984169ced80e39add30ae0f39",
+            "sha1": "87f92fa66c44373e53bb5c598202b747c461e6e9",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 218,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "b6d5deb4812ac6e9_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:50Z",
+            "last_seen": "2024-04-23T19:59:50Z"
+        },
+        {
+            "type": "file",
+            "sha256": "94d5bd6276b90a74372b202fc82440748831dcddbd1734bf1771e56990f920f0",
+            "md5": "164c923bf2ac25ffb318338d37068d7b",
+            "sha1": "613932bc267d9eaf27f903c19b93a1b1624ac63f",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 213,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "bf8eae3dcaf681ca_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:38Z",
+            "last_seen": "2024-04-23T19:59:38Z"
+        },
+        {
+            "type": "file",
+            "sha256": "627c599a52809fce13006494cc42df22483c7ef01e79d0b44e2008a766fcd2f0",
+            "md5": "05e95b434cea5d29e9929d1bcaff587c",
+            "sha1": "0ea536c1900aec3e237c249794d50802adbaba7c",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 192,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "aba6710fde0876af_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:47Z",
+            "last_seen": "2024-04-23T19:59:47Z"
+        },
+        {
+            "type": "file",
+            "sha256": "a155ea719d6a4340f52cc485c0e7f73d74b2c5fe52e85965981f8f5f8e479a51",
+            "md5": "0beb852ccf3065d932ad529b278960fb",
+            "sha1": "ae813e21d1fa8e440fdad2170bcb8cd70d365120",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 215,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "d5dedf551f4d1592_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:32Z",
+            "last_seen": "2024-04-23T19:59:32Z"
+        },
+        {
+            "type": "file",
+            "sha256": "9366e59318529ee6f1d2329c0fd473f46b2433780251a032002e8302b5ae2591",
+            "md5": "10289716d6d2f94dd9eeb71727fe2086",
+            "sha1": "ecc651f067e96d22e5007833744f32a23d2a52c5",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 191,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "560e9c8bff5008d8_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:47Z",
+            "last_seen": "2024-04-23T19:59:47Z"
+        },
+        {
+            "type": "file",
+            "sha256": "82437f29fc1ec81719f3deca4f7f8233aaa6c52743606d1a5a925a315f604f18",
+            "md5": "adb435a9870470597d78c2d68571bb8d",
+            "sha1": "303ea917841d55655c67f298d7e6b6e83f766410",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 214,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "f971b7eda7fa05c3_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:47Z",
+            "last_seen": "2024-04-23T19:59:47Z"
+        },
+        {
+            "type": "file",
+            "sha256": "1c859b9fdfef7c0db8fbdb9bedab57dc1b315c14f57ec53d8ec7d3ce5f93f92d",
+            "md5": "a49e5ddc51601e531142cc1cd2bb983f",
+            "sha1": "110c54c36cf4f621fb2e4b33e6d8bb4ce28f771f",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 214,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "927a1596c37ebe5e_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:43Z",
+            "last_seen": "2024-04-23T19:59:44Z"
+        },
+        {
+            "type": "file",
+            "sha256": "2eca5f2feed231ce937d63d171861f0f444274f22fcebd4c42c9d0ab6f9ee958",
+            "md5": "9b846180205884e880bcd9d7dfcb2c1a",
+            "sha1": "c183184855d7f28bffdd7ef62bb508a9361ab4ff",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 230,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "72d9f526d2e2e7c8_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:45Z",
+            "last_seen": "2024-04-23T19:59:45Z"
+        },
+        {
+            "type": "file",
+            "sha256": "a3b6f8d195f59abe63b5914942422fb05d13ae43367b00cd26f8282b164931b5",
+            "md5": "39b88944527309bd8bd3af338dfbf28e",
+            "sha1": "b65a7881a1132e14080c5c6691a740d996f8969f",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 215,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "71febec55d5c75cd_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:43Z",
+            "last_seen": "2024-04-23T19:59:43Z"
+        },
+        {
+            "type": "file",
+            "sha256": "52d0baaa9d16e4acbbb571ec8dd4f938cf9706c82e8c9e2c332767e9b05303cc",
+            "md5": "33d011c805ca08c2649ff365510e2f1f",
+            "sha1": "de41dc15fe4812e9579217ac6cf7666a7cfc866d",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 212,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "983b7a3da8f39a46_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:41Z",
+            "last_seen": "2024-04-23T19:59:41Z"
+        },
+        {
+            "type": "file",
+            "sha256": "449a345d541b3cb602c9f185a4452c06546da5c0a7d83eca9e363752dc817b2c",
+            "md5": "d76a6044113a0ede3015811f79317260",
+            "sha1": "f811f673befc3f4a83d9b9624aec792d39d707de",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 212,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "cf3e34002cde7e9c_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:52Z",
+            "last_seen": "2024-04-23T19:59:52Z"
+        },
+        {
+            "type": "file",
+            "sha256": "d22a0fcc3af9346663090fd9905ab0193f1f4ed067c9a85265ed07fcb09edd54",
+            "md5": "3297a49033311d7aa600ee66f354c635",
+            "sha1": "f6a47ee940265b08f409372ac93c84bfc5f514cc",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 220,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "230e5fe3e6f82b2c_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:45Z",
+            "last_seen": "2024-04-23T19:59:45Z"
+        },
+        {
+            "type": "file",
+            "sha256": "ad2ff6408459b1371745909e17a8c98448d0456569023e39e741f07ada3e8698",
+            "md5": "6b1ffa5c3b2f8902606fa3b967264af6",
+            "sha1": "c8660f6ef39a4005ee695a885a791d2c06c21479",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 215,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "6fb6d030c4ebbc21_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:32Z",
+            "last_seen": "2024-04-23T19:59:32Z"
+        },
+        {
+            "type": "file",
+            "sha256": "082a532f44138d69eb08caddbd1408f0fb9360f9dbf7ab9e019d510e6c694e7a",
+            "md5": "e1c97aa9472640062395969fcc484c19",
+            "sha1": "470e23ab6986a6181f0eab724d1b876c159a1bf2",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 222,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "8c159cc5880890bc_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:53Z",
+            "last_seen": "2024-04-23T19:59:53Z"
+        },
+        {
+            "type": "file",
+            "sha256": "7a66b6cccfcaed0a8cd48a85aab3e70a4e8078d3a5df67376883a08a30d2b4fd",
+            "md5": "7f514db1765bbe8c0cfcbe9f0a793d97",
+            "sha1": "75cf6ec7c7e44278f3e58f4ad5edfeba9ff54d52",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 217,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "946896ee27df7947_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:59Z",
+            "last_seen": "2024-04-23T19:59:59Z"
+        },
+        {
+            "type": "file",
+            "sha256": "af5e9ffd8780ff5884fa6b742dbd65d637a60f969ec5fe8f380749a7e1bff0ef",
+            "md5": "2bb95b9b982d4e3cdcb9aaee6196457f",
+            "sha1": "2f498adf51d1567e80277f20d2cb38e96824b9bb",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 208,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "fd17b2d8331c91e8_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:42Z",
+            "last_seen": "2024-04-23T19:59:42Z"
+        },
+        {
+            "type": "file",
+            "sha256": "379adad7c7ea2408989d99927b8fc41dda2846039c6e9acf908bce4fc4cedc99",
+            "md5": "f21f45146a90dbd7a7a6ef9b3f3a0b60",
+            "sha1": "a64cfff595f4ac09829f1cea1010f206893f1548",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 190,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "8e417e79df3bf0e9_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:53Z",
+            "last_seen": "2024-04-23T19:59:53Z"
+        },
+        {
+            "type": "file",
+            "sha256": "6240dbf607b1a8f2a8f886a599c591c0706357b6fc188ee018a6fe84fa838624",
+            "md5": "2026cac72c85d206103f30ac8b2d32e9",
+            "sha1": "784e10e6a6d10aba1a2bf4d2a51421985becc6c4",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 210,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "86b8040b7132b608_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:35Z",
+            "last_seen": "2024-04-23T19:59:35Z"
+        },
+        {
+            "type": "file",
+            "sha256": "902be218fb294121b5f17a71bf6e0f95cd98636d4ac62bb9dcdd2ce5ea732c76",
+            "md5": "ba51167703486f8ba9d0fd9800aa681b",
+            "sha1": "252f6d073c5ff7bdab0b02c07cf36ce07f666d3c",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 227,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "92c56fa2a6c4d5ba_0"
+                }
+            ],
+            "first_seen": "2024-03-26T01:58:56Z",
+            "last_seen": "2024-03-26T01:58:56Z"
+        },
+        {
+            "type": "file",
+            "sha256": "0bbdbfb61f5f62cd9fa8cfcfc78fdd9d559190fdd06a94ea8c64843d6a845ec0",
+            "md5": "a463c26575815a5efe233f68375b197f",
+            "sha1": "c709a0e193ceb6009c8925421fac3ba4aabe1f68",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 213,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "2798067b152b83c7_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:42Z",
+            "last_seen": "2024-04-23T19:59:42Z"
+        },
+        {
+            "type": "file",
+            "sha256": "1ad87cb180ba7b0b1d096cddfb11dd4f60167e5ce0e13633c24d02d498c84bca",
+            "md5": "91bda7f82c355b6e721d9cdbbc4533a4",
+            "sha1": "905b9576e281656d7a906a99a173c2cb4678710d",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 250,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "0998db3a32ab3f41_0"
+                }
+            ],
+            "first_seen": "2024-04-23T07:05:58Z",
+            "last_seen": "2024-04-23T07:05:58Z"
+        },
+        {
+            "type": "file",
+            "sha256": "b5d562b39dccd3ac1f414f67774bdf19d954ef4abed1b806222c33ab478d380e",
+            "md5": "3d014e19245dca682faf62be00f0836a",
+            "sha1": "17cf4e67f32e9c12b734ef192c93ebd6983c9d05",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 18563,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\temp\\acrobat_sbx",
+                    "file_name": "acrongllog.txt"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:48Z",
+            "last_seen": "2024-04-23T19:59:48Z"
+        },
+        {
+            "type": "file",
+            "sha256": "04e1cf7b331134fc8accdc622349102bd8c0cbabe053414ed345b08ca6dd2d35",
+            "md5": "e36a670c4873b667998f586c43984f99",
+            "sha1": "2cccd00b91c6d1587cf82c06cad81044843e4c73",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 232,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "febb41df4ea2b63a_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:52Z",
+            "last_seen": "2024-04-23T19:59:52Z"
+        },
+        {
+            "type": "file",
+            "sha256": "a08a6986607fae8a33fa4ca76b04abd807dbe5bda8b8e88a9d725fbf2ece94b5",
+            "md5": "17ea38c583126c8304880d556554ebd3",
+            "sha1": "42ac86276f5078830bac0045648b3c6f79e8371f",
+            "detection_name": "generic..",
+            "file_format": "Unknown",
+            "file_size": 234,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "8c84d92a9dbce3e0_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:42Z",
+            "last_seen": "2024-04-23T19:59:42Z"
+        },
+        {
+            "type": "file",
+            "sha256": "709463ebe95e1ddb5e9f69ae2fa590fe3edf71dd8de86d11c1844c0c28db494f",
+            "md5": "18e11e886d9f9d63afe6925294527c07",
+            "sha1": "cbfbfb2e14d253df7e9b4a796c4e24aef823001e",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 217,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "78bff3512887b83d_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:46Z",
+            "last_seen": "2024-04-23T19:59:46Z"
+        },
+        {
+            "type": "file",
+            "sha256": "89902e607d3176f4da547c9a313d7749d4e14f010376198102adfe415024e99e",
+            "md5": "0cd49225e871eea240506adeacaf1177",
+            "sha1": "d1d4bedcd6b244b51f1cf41b2db1b117665a2633",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 211,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "91cec06bb2836fa5_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:43Z",
+            "last_seen": "2024-04-23T19:59:43Z"
+        },
+        {
+            "type": "file",
+            "sha256": "558a294284f662ea02a67e6cb6ae2ea6b48968eafe38ba2a8f07439eef23db66",
+            "md5": "706b438dc07f503eb47658fa61b9cc2b",
+            "sha1": "507185a5cd237f86f095fa49f9e7d8a9867a4353",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 214,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\locallow\\adobe\\acrocef\\dc\\acrobat\\cache\\code cache\\js",
+                    "file_name": "0f25049d69125b1e_0"
+                }
+            ],
+            "first_seen": "2024-04-23T19:59:28Z",
+            "last_seen": "2024-04-23T19:59:28Z"
+        }
+    ],
+    "indicator_counters": {
+        "files": 58,
+        "processes": 2
+    }
+}
+{
+    "threat_id": "BD8dc2e4rb",
+    "version": 1,
+    "timestamp": "2024-05-13T05:58:03Z",
+    "discovered": "2024-05-13T05:58:03Z",
+    "score": 50,
+    "confidence": 10,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "url",
+            "url": "fedexcourierservices.com/contact/",
+            "detection_name": "phishing.phishing-unknown.663e997e1ada5d0008da1aed.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "host_ips": [
+                {
+                    "ip": "198.251.81.188",
+                    "country": "US"
+                }
+            ],
+            "first_seen": "2024-05-13T05:58:03Z",
+            "last_seen": "2024-05-13T05:58:03Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "urls": 1
+    }
+}
+{
+    "threat_id": "BDg4f1ivbf",
+    "version": 1,
+    "timestamp": "2024-05-13T05:56:41Z",
+    "discovered": "2024-05-13T05:56:42Z",
+    "score": 50,
+    "confidence": 60,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "domain",
+            "domain": "plu123.com",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "host_ips": [
+                {
+                    "ip": "168.76.121.114",
+                    "country": "ZA"
+                }
+            ],
+            "first_seen": "2024-05-13T05:56:42Z",
+            "last_seen": "2024-05-13T05:56:42Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "domains": 1
+    }
+}
+{
+    "threat_id": "BDth05pvy1",
+    "version": 2,
+    "timestamp": "2024-05-13T05:56:30Z",
+    "discovered": "2024-05-13T04:56:14Z",
+    "score": 50,
+    "confidence": 10,
+    "tags": [
+        "phishing"
+    ],
+    "victims": {
+        "industries": [
+            {
+                "industry": "Government",
+                "percentage": 100
+            }
+        ]
+    },
+    "indicators": [
+        {
+            "type": "domain",
+            "domain": "aidatodeetmxl.publicvm.com",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing",
+                "brand: Devlet - Turkish Government"
+            ],
+            "host_ips": [
+                {
+                    "ip": "94.156.8.82",
+                    "country": "BG"
+                }
+            ],
+            "first_seen": "2024-05-13T04:56:14Z",
+            "last_seen": "2024-05-13T04:56:14Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "domains": 1
+    }
+}
+{
+    "threat_id": "BDizglfa1l",
+    "version": 1,
+    "timestamp": "2024-05-13T05:55:05Z",
+    "discovered": "2024-05-13T05:55:05Z",
+    "score": 50,
+    "confidence": 95,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "url",
+            "url": "20470557680bbc.lhr.life/login.html.php",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "first_seen": "2024-05-13T05:55:05Z",
+            "last_seen": "2024-05-13T05:55:05Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "urls": 1
+    }
+}
+{
+    "threat_id": "BDmrkz7ncp",
+    "version": 1,
+    "timestamp": "2024-05-13T05:54:40Z",
+    "discovered": "2024-05-13T05:54:41Z",
+    "score": 50,
+    "confidence": 95,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "url",
+            "url": "death-dash-quit-ordered.trycloudflare.com/login.html.php",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "first_seen": "2024-05-13T05:54:41Z",
+            "last_seen": "2024-05-13T05:54:41Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "urls": 1
+    }
+}
+{
+    "threat_id": "BDppyliebu",
+    "version": 1,
+    "timestamp": "2024-05-13T05:50:22Z",
+    "discovered": "2024-05-13T05:50:22Z",
+    "score": 50,
+    "confidence": 60,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "domain",
+            "domain": "pl17200120.highrevenuegate.com",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "host_ips": [
+                {
+                    "ip": "192.243.61.227",
+                    "country": "US"
+                }
+            ],
+            "first_seen": "2024-05-13T05:50:22Z",
+            "last_seen": "2024-05-13T05:50:22Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "domains": 1
+    }
+}
+{
+    "threat_id": "BDuln7zzfe",
+    "version": 1,
+    "timestamp": "2024-05-13T05:45:36Z",
+    "discovered": "2024-05-13T05:45:37Z",
+    "score": 50,
+    "confidence": 60,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "domain",
+            "domain": "eiolph.top",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "first_seen": "2024-05-13T05:45:37Z",
+            "last_seen": "2024-05-13T05:45:37Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "domains": 1
+    }
+}
+{
+    "threat_id": "BDxhb7aynr",
+    "version": 2,
+    "timestamp": "2024-05-13T05:45:05Z",
+    "discovered": "2024-01-13T11:24:08Z",
+    "score": 100,
+    "confidence": 72,
+    "threat_families": [
+        {
+            "threat_family_id": "BDF4ypr9mac",
+            "name": "androm",
+            "confidence": 49
+        }
+    ],
+    "tags": [
+        "backdoor",
+        "apt"
+    ],
+    "victims": {
+        "countries": [
+            {
+                "country": "TH",
+                "percentage": 97.78
+            },
+            {
+                "country": "RO",
+                "percentage": 2.22
+            }
+        ],
+        "industries": [
+            {
+                "industry": "Telecommunications Services",
+                "percentage": 100
+            }
+        ]
+    },
+    "indicators": [
+        {
+            "type": "domain",
+            "domain": "ayoobtextlie.com",
+            "popularity": 3,
+            "severity": 36,
+            "tags": [
+                "phishing"
+            ],
+            "first_seen": "2020-02-16T00:34:48Z",
+            "last_seen": "2024-05-13T05:43:52Z",
+            "ttl": "48h",
+            "domain_content_categories": [
+                "porn"
+            ]
+        },
+        {
+            "type": "file",
+            "sha256": "8c15bd9ea866d00407066f58d473e487d938d7d05496e8cd79d4ec4be93dcc0d",
+            "md5": "32877079bb5366250bcae9fa692481da",
+            "sha1": "491f3eb976cf9cb76600205e967b3e248ffffa75",
+            "detection_name": "backdoor.androm.",
+            "file_format": "Windows executable",
+            "file_size": 759808,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\downloads\\d8ff3ca1691d47651ad8e091809d9ca9490cb6d74ac7b66b202e104f690fa5e1",
+                    "file_name": "invoice-001179__pdf..exe"
+                }
+            ],
+            "severity": 100,
+            "conviction_reasons": [
+                "spam_attachment",
+                "sandbox_detection"
+            ],
+            "threat_types": [
+                "backdoor"
+            ],
+            "tags": [
+                "backdoor",
+                "apt"
+            ],
+            "first_seen": "2020-02-27T04:29:36Z",
+            "last_seen": "2024-03-19T10:15:38Z",
+            "mitre_info": {
+                "phases": {
+                    "Execution": [
+                        {
+                            "id": "T1106",
+                            "url": "https://attack.mitre.org/techniques/T1106/"
+                        }
+                    ],
+                    "Defense Evasion": [
+                        {
+                            "id": "T1070",
+                            "url": "https://attack.mitre.org/techniques/T1070/",
+                            "sub_techniques": [
+                                {
+                                    "id": "T1070.004",
+                                    "url": "https://attack.mitre.org/techniques/T1070/004/"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "T1564",
+                            "url": "https://attack.mitre.org/techniques/T1564/",
+                            "sub_techniques": [
+                                {
+                                    "id": "T1564.001",
+                                    "url": "https://attack.mitre.org/techniques/T1564/001/"
+                                }
+                            ]
+                        }
+                    ],
+                    "Credential Access": [
+                        {
+                            "id": "T1552",
+                            "url": "https://attack.mitre.org/techniques/T1552/",
+                            "sub_techniques": [
+                                {
+                                    "id": "T1552.001",
+                                    "url": "https://attack.mitre.org/techniques/T1552/001/"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "T1555",
+                            "url": "https://attack.mitre.org/techniques/T1555/",
+                            "sub_techniques": [
+                                {
+                                    "id": "T1555.003",
+                                    "url": "https://attack.mitre.org/techniques/T1555/003/"
+                                }
+                            ]
+                        }
+                    ],
+                    "Discovery": [
+                        {
+                            "id": "T1012",
+                            "url": "https://attack.mitre.org/techniques/T1012/"
+                        },
+                        {
+                            "id": "T1087",
+                            "url": "https://attack.mitre.org/techniques/T1087/",
+                            "sub_techniques": [
+                                {
+                                    "id": "T1087.003",
+                                    "url": "https://attack.mitre.org/techniques/T1087/003/"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "version": "8.0",
+                "matrix": "enterprise"
+            },
+            "compromise_entrypoint": true
+        },
+        {
+            "type": "process",
+            "name": "invoice-001179__pdf..exe",
+            "path": "c:\\users\\~REDACTED~\\downloads\\d8ff3ca1691d47651ad8e091809d9ca9490cb6d74ac7b66b202e104f690fa5e1\\invoice-001179__pdf..exe",
+            "command_line": "c:\\users\\~REDACTED~\\downloads\\d8ff3ca1691d47651ad8e091809d9ca9490cb6d74ac7b66b202e104f690fa5e1\\invoice-001179__pdf..exe"
+        }
+    ],
+    "indicator_counters": {
+        "files": 1,
+        "domains": 1,
+        "processes": 1
+    }
+}
+{
+    "threat_id": "BDm3dajvuc",
+    "version": 1,
+    "timestamp": "2024-05-13T05:44:31Z",
+    "discovered": "2024-05-13T05:44:31Z",
+    "score": 50,
+    "confidence": 60,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "domain",
+            "domain": "lzwlijbzhj.com",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "first_seen": "2024-05-13T05:44:31Z",
+            "last_seen": "2024-05-13T05:44:31Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "domains": 1
+    }
+}
+{
+    "threat_id": "BD4l0gw5l6",
+    "version": 1,
+    "timestamp": "2024-05-13T05:44:28Z",
+    "discovered": "2024-05-13T05:44:28Z",
+    "score": 50,
+    "confidence": 60,
+    "tags": [
+        "phishing"
+    ],
+    "indicators": [
+        {
+            "type": "domain",
+            "domain": "zgv7.liveprow.site",
+            "detection_name": "phishing.phishing-unknown.0.0",
+            "severity": 50,
+            "conviction_reasons": [
+                "malicious_domain"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "host_ips": [
+                {
+                    "ip": "176.9.79.246",
+                    "country": "DE"
+                }
+            ],
+            "first_seen": "2024-05-13T05:44:28Z",
+            "last_seen": "2024-05-13T05:44:28Z",
+            "ttl": "48h"
+        }
+    ],
+    "indicator_counters": {
+        "domains": 1
+    }
+}
+{
+    "threat_id": "BDgykes9e2",
+    "version": 1,
+    "timestamp": "2024-05-13T05:42:59Z",
+    "discovered": "2024-05-13T05:42:47Z",
+    "score": 42,
+    "confidence": 97,
+    "tags": [
+        "phishing"
+    ],
+    "victims": {
+        "countries": [
+            {
+                "country": "US",
+                "percentage": 100
+            }
+        ],
+        "industries": [
+            {
+                "industry": "Consulting",
+                "percentage": 100
+            }
+        ]
+    },
+    "indicators": [
+        {
+            "type": "file",
+            "sha256": "7f667c3b53a3181446aa7657c0f1cafa0eb2945b210fd6efd4dab956d94871c1",
+            "md5": "7babd3d6591752f0cc044d5d9a25f991",
+            "sha1": "e63ab259cc9808d1375da950e79302c544cf9634",
+            "detection_name": "phishing..63140459",
+            "file_format": "Document / Office / Excel",
+            "file_size": 933748,
+            "file_names": [
+                {
+                    "directory_path": "%PROFILE%\\downloads",
+                    "file_name": "7f667c3b53a3181446aa7657c0f1cafa0eb2945b210fd6efd4dab956d94871c1.xlsx"
+                }
+            ],
+            "popularity": 3,
+            "severity": 42,
+            "conviction_reasons": [
+                "sandbox_detection"
+            ],
+            "threat_types": [
+                "phishing"
+            ],
+            "tags": [
+                "phishing"
+            ],
+            "first_seen": "2022-10-26T14:32:48Z",
+            "last_seen": "2024-05-05T06:47:25Z",
+            "mitre_info": {
+                "phases": {
+                    "Execution": [
+                        {
+                            "id": "T1106",
+                            "url": "https://attack.mitre.org/techniques/T1106/"
+                        },
+                        {
+                            "id": "T1559",
+                            "url": "https://attack.mitre.org/techniques/T1559/",
+                            "sub_techniques": [
+                                {
+                                    "id": "T1559.001",
+                                    "url": "https://attack.mitre.org/techniques/T1559/001/"
+                                }
+                            ]
+                        }
+                    ],
+                    "Defense Evasion": [
+                        {
+                            "id": "T1112",
+                            "url": "https://attack.mitre.org/techniques/T1112/"
+                        }
+                    ],
+                    "Discovery": [
+                        {
+                            "id": "T1012",
+                            "url": "https://attack.mitre.org/techniques/T1012/"
+                        }
+                    ]
+                },
+                "version": "8.0",
+                "matrix": "enterprise"
+            },
+            "compromise_entrypoint": true
+        },
+        {
+            "type": "file",
+            "sha256": "be84b842025e4241bfe0c9f7b8f86a322e4396d893ef87ea1e29c74f47b6a22d",
+            "md5": "573220372da4ed487441611079b623cd",
+            "sha1": "8f9d967ac6ef34640f1f0845214fbc6994c0cb80",
+            "detection_name": "generic..b",
+            "file_format": "Document / XML",
+            "file_size": 118,
+            "file_names": [
+                {
+                    "directory_path": "c:\\program files\\microsoft office\\root\\vfs\\common appdata\\microsoft\\office\\heartbeat",
+                    "file_name": "heartbeatcache.xml"
+                }
+            ],
+            "first_seen": "2013-01-01T04:19:26Z",
+            "last_seen": "2024-05-07T07:56:03Z"
+        },
+        {
+            "type": "process",
+            "name": "splwow64.exe",
+            "path": "c:\\windows\\splwow64.exe",
+            "command_line": "c:\\windows\\splwow64.exe 12288"
+        },
+        {
+            "type": "process",
+            "name": "excel.exe",
+            "path": "c:\\program files\\microsoft office\\root\\office16\\excel.exe",
+            "command_line": "\"c:\\program files\\microsoft office\\root\\office16\\excel.exe\" /e c:\\users\\~REDACTED~\\downloads\\7f667c3b53a3181446aa7657c0f1cafa0eb2945b210fd6efd4dab956d94871c1.xlsx"
+        },
+        {
+            "type": "file",
+            "sha256": "f182461b23b12a7e385f449880706a5008eef9f37619ecdb9d1b3b69c213b321",
+            "md5": "aafed063e5fdd5f3616256d1a28ce13a",
+            "sha1": "dfd4bfa85a9a747c4ee898e69edf7466c61c6b5a",
+            "detection_name": "generic..",
+            "file_format": "Plain text",
+            "file_size": 2684,
+            "file_names": [
+                {
+                    "directory_path": "c:\\users\\~REDACTED~\\appdata\\local\\microsoft\\tokenbroker\\cache",
+                    "file_name": "5475cb191e478c39370a215b2da98a37e9dc813d.tbres"
+                }
+            ],
+            "first_seen": "2024-05-05T06:49:01Z",
+            "last_seen": "2024-05-05T06:49:01Z"
+        }
+    ],
+    "indicator_counters": {
+        "files": 3,
+        "processes": 2
+    }
+}
